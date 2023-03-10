@@ -1,0 +1,52 @@
+h1 {
+    font-size: 4em;  
+    text-align: center;
+}
+label{
+    font-size: 2em;
+    text-align: center;
+}
+.Box-Direction {
+    display: flex;
+    flex-direction: row;
+}
+.box-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #fff;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.box-darkred {
+    background-color: darkred;
+}
+.box-goldenrod {
+    background-color: goldenrod
+}
+.box-darkcyan {
+    background-color: darkcyan;
+}
+.box-49-104-177 {
+    background-color: rgb(49, 104, 177);
+}
+.box-38-233-217 {
+    background-color: rgb(38, 233, 217);
+}
+.box-233-38-201{
+    background-color: rgb(233, 38, 201);
+}
+.box-693DEB {
+    background-color: #693DEB;
+}
+.box-EBA15E {
+    background-color: #EBA15E;
+}
+.box-3BED48 {
+    background-color: #3BED48;
+}
