@@ -1,16 +1,6 @@
 h1{
-    font-size: 5em;
-    color: chartreuse;
-}
-h2{
-    font-size: 4em;
-    color: rgb(0, 238, 255);
-}
-p.font-8em{
-    font-size: 2em;
-    color: blueviolet;
-}
-p.font-5em{
-    font-size: 1em;
-    color: blueviolet;
+    font-size: 6em;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
 }
