@@ -5,6 +5,23 @@
 }
 .main-box {
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.product-box{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    /* background-color: rgb(242, 242, 242); */
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+.fa-solid{
+    background-color: transparent;
+}
+.fa-regular{
+    background-color: transparent;
 }
 .box-style {
     width: 400px;
@@ -14,15 +31,7 @@
     margin-top: 100px;  
     padding-top: 0.5px;
 }
-.product-box-1{
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    /* background-color: rgb(242, 242, 242); */
-    margin-top: 30px;
-    margin-left: 75px;
-    margin-bottom: 50px;
-}
+
 img{
     margin-top: 30px;
     margin-left: 77px;   
@@ -44,11 +53,11 @@ img{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
 }
-.product-text-1 {
+.product-text {
 text-align: center;
 background-color: white;
 }
-.product-text-span-1 {
+.product-text-span {
     background-color: white;
     font-size: 1.9em;
     font-weight: 900;
@@ -62,9 +71,65 @@ background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(64, 64, 64s);
 }
-.price-text{
+.price-text-1{
     background-color: white;
     color: rgb(39, 200, 164);
+    font-size: 2.3em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+
+.box-style {
+    width: 400px;
+    height: 560px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;  
+    padding-top: 0.5px;
+}
+img{
+    margin-top: 30px;
+    margin-left: 77px;   
+    width: 40%;
+    background-color: transparent;
+}
+.add-cart-2 {
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(200, 39, 39);
+}
+.add-cart-2-span {
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+}
+.product-text{
+text-align: center;
+background-color: white;
+}
+.product-text-span {
+    background-color: white;
+    font-size: 1.9em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 64, 64s);
+}
+.text-description{
+    background-color: white;
+    font-size: 1em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 64, 64s);
+}
+.price-text-2{
+    background-color: white;
+    color: rgb(200, 39, 39);
     font-size: 2.3em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
