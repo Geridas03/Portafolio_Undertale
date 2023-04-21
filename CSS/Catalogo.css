@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.Inicio{
+    color: transparent;
+}
 .main-box {
     height: 100vh;
     display: flex;

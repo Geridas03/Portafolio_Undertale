@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.Inicio{
+    background-color: transparent;
+    color: transparent;
+}
 div{
     display: flex;
     justify-content: center;

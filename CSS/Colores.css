@@ -2,6 +2,10 @@ h1 {
     font-size: 4em;  
     text-align: center;
 }
+.Inicio{
+    color: transparent;
+    font-size: 30px;
+}
 label{
     font-size: 2em;
     text-align: center;
