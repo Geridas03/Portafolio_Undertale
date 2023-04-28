@@ -9,13 +9,15 @@
 }
 table{
     font-family: sans-serif;
+    border-collapse: collapse; 
 }
 th{
-    border: 1px transparent;
+    border: 1px solid #330033;
     padding: 15px 25px;
     text-align: center;
 }
 td{
+    border: 1px solid #330033;
     padding: 15px 25px;
     text-align: center;
     background-color: white;

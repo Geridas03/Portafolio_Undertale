@@ -1,5 +1,6 @@
 *{
     background-color: rgb(255, 255, 255);
+    padding-bottom: 5px;
 }
 h1{
     font-size: 6em;
@@ -13,4 +14,6 @@ h2{
 }
 .items{
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
 }
