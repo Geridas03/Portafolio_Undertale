@@ -15,4 +15,4 @@ menuBar.addEventListener("click", function() {
     mainMenu.classList.remove("main-nav");
     mainMenu.classList.add("main-nav-2")
 });
-alert("Bienvenido")
+alert("Bienvenidos")
