@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+h1{
+    font-size: 6em;
+    color: rgb(0, 54, 0);
+    text-align: center;
+}
+h2{
+    font-size: 2.5em;
+    color: darkcyan;
+    text-align: center;
+}
+.items{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
