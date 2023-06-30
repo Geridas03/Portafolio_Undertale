@@ -1,0 +1,129 @@
+*{
+    font-family: sans-serif;
+}
+
+.box-cont{
+    background-color: whitesmoke;
+    gap: 20px;
+}
+
+.box-gen{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1.8em;
+}
+.box-alpha{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1.8em;
+}
+
+.box-main-wrap{
+    height: 280px;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-height{
+    height: 500px;
+    gap: 50px;
+    background-color: whitesmoke;
+}
+
+.box-height-1{
+    height: 500px;
+    gap: 50px; 
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-4{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box-5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box-6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-7{
+    display: flex;
+    justify-content: space-around;
+}
+.box-8{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-9{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.box-10{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.box-11{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-left: 250px;
+    .box-A{
+        background-color: coral;
+        height: 150px;
+    }
+    .box-B{
+        background-color: chartreuse;
+        height: 250px;
+    }
+    .box-C{
+        background-color: cornflowerblue;
+        height: 450px;
+    }
+    .box-D{
+        background-color: chocolate;
+        height: 400px;
+    }
+    .box-E{
+        background-color: crimson;
+        height: 200px;
+    }
+    .box-F{
+        background-color: darkred;
+        height: 350px;
+    
+    }
+}
