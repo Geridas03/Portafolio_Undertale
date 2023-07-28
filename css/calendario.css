@@ -28,7 +28,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background-color: rgb(61, 159, 246);
+    background-color: darkcyan;
     border-radius: 15px;
 }
 
@@ -40,7 +40,7 @@
 .nombres-mes{
     grid-column-start: 1;
     grid-column-end: 8;
-    color: rgb(61, 159, 246);
+    color: rgb(197, 125, 0);
     font-size: 5em;
     align-items: center;
     border-radius: 15px;
@@ -67,4 +67,13 @@
 
 .box1-23{
     color: rgb(0, 0, 0);
+}
+
+.img-fondo{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -90;
 }
