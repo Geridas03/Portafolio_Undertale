@@ -29,7 +29,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     background-color: rgb(61, 159, 246);
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .box1-1{
@@ -43,7 +43,7 @@
     color: rgb(61, 159, 246);
     font-size: 5em;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .nombres-dias{

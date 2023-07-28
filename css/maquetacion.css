@@ -6,6 +6,11 @@
 
 header{
     background-color: chocolate;
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    background-color: darkcyan;
     width: 400px;
     height: 100px;
     color: aliceblue;
@@ -13,4 +18,6 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 2em;
+    font-weight: 900;
+
 }
