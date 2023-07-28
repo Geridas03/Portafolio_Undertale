@@ -48,10 +48,11 @@ header{
     width: 100%;
     display: grid;
 
-    grid-template: "img-principal  img-principal  img-principal  img-principal  img-principal"  600px
-                    "empty-left    article-1      article-2      article-3      empty-right"     500px /
-                    1fr            350px          350px          350px          1fr;
-}
+    grid-template: "img-principal  img-principal  img-principal  img-principal img-principal"  600px
+                   "empty-left     article-1      article-2      article-3     empty-right"    500px 
+                   "empty-left     article-4      article-5      article-6     empty-right"    500px/
+                   1fr             350px          350px          350px        1fr                ;
+}      
 
 .article{
     width: 350px;
@@ -69,4 +70,15 @@ header{
 
 .article-3{
     grid-area: article-3;
+}
+
+.article-4{
+    grid-area: article-4;
+}
+
+.article-5{
+    grid-area: article-5;
+}
+.article-6{
+    grid-area: article-6;
 }

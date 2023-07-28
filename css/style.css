@@ -50,7 +50,7 @@ nav li:hover > ul > li{
     transition: 0.5s;
     border-top: 0.5px solid white;
     border-right: 0.5px solid white;
-    transition: max-height 1.5s;
+    transition: 1.5s;
 }
 
 nav ul ul ul{
