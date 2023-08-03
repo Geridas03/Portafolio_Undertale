@@ -20,6 +20,13 @@ header{
     font-size: 2em;
     font-weight: 900;
 }
+.style-img-article{
+    height: 350px;
+}
+.style-text-article{
+    line-height: 1.5em;
+    text-align: justify;
+}
 .logo{
     grid-area: logo;
     background-color: darkcyan;
