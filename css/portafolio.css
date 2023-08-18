@@ -6,12 +6,19 @@
   box-sizing: border-box;
 }
 
+
+span{
+  color: #268069;
+}
+
 nav ul{
   background-color: rgb(64, 64, 64);
   font-size: 1.5rem;
   position: absolute;
   width: 100%;
   text-align: center;
+  display: grid;
+  justify-content: end;
 }
 
 nav li{
@@ -31,6 +38,7 @@ nav a{
   color: whitesmoke;
   display: block;
   width: 200px;
+  flex-direction: row;
 }
 
 nav > ul > li{
@@ -54,10 +62,6 @@ nav li:hover > ul > li{
   transition: 1.5s;
 }
 
-nav ul ul ul{
-  left: 100%;
-  top: 0;
-}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -65,7 +69,7 @@ body {
 
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   background-color: #3f3f3f;
   color: #fff;
 }
@@ -115,7 +119,7 @@ body {
 .main {
   margin: 0 auto;
   width: 80vw;
-  height: 95vh;
+  height: 75vh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
@@ -177,6 +181,89 @@ h1 {
   margin-bottom: 1em;
 }
 
+h2{
+  color: white;
+}
+.trabajos{
+  background:linear-gradient(to right, #444444, #0e0e0e);
+  max-width: 2000px;
+  max-height: 2000px;
+  margin: auto;
+  padding: 200px;
+}
+.trabajos h2{
+  text-align: center;
+}
+.trabajos nav{
+  text-align: center;
+  margin: 30px 0;
+}
+.trabajos nav a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 20px;
+  color: #268069;
+  font-weight: bold;
+  padding: 3px 10px;
+  border: 3px solid transparent;
+}
+.trabajos nav a:hover{
+  border: 3px solid #ff5b00;
+}
+/* Esta clase se agregrá dinámicamente cuando haya seleccionada una opción */
+.borde{
+  border: 3px solid #ff5b00 !important;  
+}
+.trabajos .galeria .item img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.trabajos .galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-gap:30px;
+}
+.trabajos .galeria .item{
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #8d8d8d ;
+  border-radius: 10px;
+}
+.trabajos .galeria .item .info{
+  position: absolute;
+  top: -100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background-color:#268069 ;
+  width: 100%;
+  padding: 20px;
+  opacity: 0;
+  transition: .3s;
+}
+.trabajos .galeria .item .info h3{
+  color: white;
+  margin-bottom: 20px;
+}
+.trabajos .galeria .item .info span{
+  color: #8d8d8d;
+  display: inline-block;
+  border: 2px solid #8d8d8d;
+  margin: 0 3px;
+  padding:  0 5px;
+}
+.trabajos .galeria .item .info a{
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+  color: #007be5;
+  font-weight: bold;
+}
+.trabajos .galeria .item:hover .info{
+  opacity: 1;
+  top: 0;
+}
 
 .contact-section {
   padding: 3em;
@@ -204,7 +291,7 @@ h1 {
   height: 150px;
   padding: 1.5em;
   background: none;
-  border: 1px solid #fff;
+  border: 1px solid #ff0000;
   color: #fff;
 }
 

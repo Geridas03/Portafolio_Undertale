@@ -10,49 +10,17 @@
   <body>
     <div class="wrapper">
       <header>
-          <div class="brand">
+     <nav>
+          <div class="contenedor-header">
             <h2>Erick<span>Sanchez</span></h2>
           </div>
-          <nav>
-            <ul>
-                <li><a href="portafolio.html">Inicio</a></li>
-                <li><a href="#">Fuentes</a>
-                    <ul>
-                        <li><a href="fuente_1.html">Fuente 1</a></li>
-                        <li><a href="fuente_2.html">Fuente 2</a></li>
-                        <li><a href="fuente_3.html">Fuente 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Listas</a>
-                    <ul>
-                        <li><a href="catalogo.html">Catalogo</a></li>
-                        <li><a href="tablas.html">Posiciones</a></li>
-                        <li><a href="colores.html">Colores</a></li>
-                        <li><a href="margenes.html">Margenes</a></li>
-                        <li><a href="calendario.html">Calendario</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Tipos de Menu</a>
-                    <ul>
-                        <li><a href="media-quary.html">Media Quary</a></li>
-                        <li><a href="menu-horizontal.html">Menu Horizontal</a></li>
-                        <li><a href="subitems.html">Sub Items</a></li>
-                        <li><a href="subitems_2.html">Sub Items 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Maquetacion</a>
-                    <ul>
-                        <li><a href="maquetacion.html">Maquetacion</a></li>
-                        <li><a href="maquetacion2.html">Maquetacion 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="flexbox.html">Flexbox</a></li>
-            </ul>
-        </nav>
-        <script src="js/subitems_2.js"></script>
-
         </nav>
       </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Antiguo Index</a></li> 
+        </ul>
+      </nav>
       <main class="main">
         <div class="info-content">
           <h1>Soy<span>Erick</span>Sanchez</h1>
@@ -69,6 +37,93 @@
           <p>Soy un aprendiz Sena que sigue en el proceso de aprendizaje, mi fuerte es el modelado 3D.</p>
         </div>
       </div>
+
+
+      <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+            <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item animaciones">
+                <img src="img/CODE.jpg" alt="">
+                <div class="info">
+                    <h3>Code 3D</h3>                    
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+              <img src="img/Personaje Erick.jpg" alt="">
+              <div class="info">
+                  <h3>Code 2D</h3>
+                  <a href="#">Ver Trabajo</a>
+              </div>
+          </div>
+            <div class="item disenio">
+                <img src="img/Libro.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+              <img src="img/BusinessCard.png" alt="">
+              <div class="info">
+                  <h3>BusinessCard</h3>
+                  <a href="#">Ver Trabajo</a>
+              </div>
+            </div>
+            <div class="item disenio">
+              <img src="img/zorro.png" alt="">
+              <div class="info">
+                  <h3>Zorro Vector</h3>
+                  <a href="#">Ver Trabajo</a>
+              </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/menu horizontal.PNG" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/margenes.PNG" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/flexbox.PNG" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+              <img src="Img/Maquetacion.PNG" alt="">
+              <div class="info">
+                  <h3>Maquetacion</h3>
+                  <span>html</span><span>css</span><span>javascript</span>
+                  <a href="maquetacion.html">Ver Trabajo</a>
+              </div>
+          </div>
+          <div class="item programacion">
+              <img src="Img/calendario.PNG" alt="">
+              <div class="info">
+                  <h3>Calendario</h3>
+                  <a href="#">Ver Trabajo</a>
+              </div>
+          </div>
+        </div>
+    </section>
+
       <footer class="footer"> 
         <div class="footer-content">
           <h2>Erick Sanchez</h2>
@@ -81,4 +136,5 @@
           <i class="fa-brands fa-youtube" style="color: #000000;"></i>
         </div>
       </footer>
+      <script src="js/portafolio.js"></script>
     </body>
