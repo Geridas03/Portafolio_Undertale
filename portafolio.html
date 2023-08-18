@@ -1,48 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
     <link rel="stylesheet" href="css/portafolio.css">
-    <link rel="stylesheet" href="icons/all.css">
-    <title>portafolio</title>
-</head>
-<body>
-    <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#">Erick</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
-                    <li><a href="#portafolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="contacto" onclick="seleccionar()">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
-    </div>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+          <div class="brand">
+            <h2>Erick<span>Sanchez</span></h2>
+          </div>
+          <nav>
+            <ul>
+                <li><a href="portafolio.html">Inicio</a></li>
+                <li><a href="#">Fuentes</a>
+                    <ul>
+                        <li><a href="fuente_1.html">Fuente 1</a></li>
+                        <li><a href="fuente_2.html">Fuente 2</a></li>
+                        <li><a href="fuente_3.html">Fuente 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Listas</a>
+                    <ul>
+                        <li><a href="catalogo.html">Catalogo</a></li>
+                        <li><a href="tablas.html">Posiciones</a></li>
+                        <li><a href="colores.html">Colores</a></li>
+                        <li><a href="margenes.html">Margenes</a></li>
+                        <li><a href="calendario.html">Calendario</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tipos de Menu</a>
+                    <ul>
+                        <li><a href="media-quary.html">Media Quary</a></li>
+                        <li><a href="menu-horizontal.html">Menu Horizontal</a></li>
+                        <li><a href="subitems.html">Sub Items</a></li>
+                        <li><a href="subitems_2.html">Sub Items 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Maquetacion</a>
+                    <ul>
+                        <li><a href="maquetacion.html">Maquetacion</a></li>
+                        <li><a href="maquetacion2.html">Maquetacion 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="flexbox.html">Flexbox</a></li>
+            </ul>
+        </nav>
+        <script src="js/subitems_2.js"></script>
 
-    <selection id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/Hero.png" alt="">
-            </div>
-            <h1>Erick Sanchez</h1>
-            <h2>Productor Multimedial</h2>
-            <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-solid fa-inbox"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="info-content">
+          <h1>Soy<span>Erick</span>Sanchez</h1>
+           <p> Saludos, soy Erick Sanchez y este es mi portafolio, instructor me trasnoche haciendo esto.</p>
         </div>
-    </selection>
-    
-</body>
-</html>
+        <img src="img/Hero.png" alt="">
+      </main>
+    </div>
+      <div class="about">
+        <img src="img/foto-2.jpg" alt="">
+        <div class="about-info">
+          <h2>Sobre mi</h2>
+          <div class="divider"></div>
+          <p>Soy un aprendiz Sena que sigue en el proceso de aprendizaje, mi fuerte es el modelado 3D.</p>
+        </div>
+      </div>
+      <footer class="footer"> 
+        <div class="footer-content">
+          <h2>Erick Sanchez</h2>
+          <h5>Productor Multimedial</h5>
+          <h5>Diseño basado en Jhon Carter</h5>
+        </div>
+        <div class="sotial-networks">
+          <i class="fa-brands fa-whatsapp" style="color: #000000;"></i>
+          <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+          <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+        </div>
+      </footer>
+    </body>
