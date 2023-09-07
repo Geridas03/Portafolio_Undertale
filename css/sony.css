@@ -61,8 +61,23 @@ header{
     justify-content: left;
     margin-top: 6px;
     align-items: center;
+    font-family: sans-serif;
     font-size: 1.5em;
-    font-weight: 800;
+    font-weight: 500;
+}
+
+.style-box-3{
+    color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+i{
+    font-style: normal;
 }
 .style-img-article{
     height: 350px;
@@ -152,6 +167,19 @@ header{
          url('../fonts/71-font.otf') format('woff'), /* Modern Browsers */
          url('../fonts/71-font.otf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/71-font.otf') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PlayStation';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/zrnic rg.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/zrnic rg.otf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/zrnic rg.otf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/zrnic rg.otf') format('woff'), /* Modern Browsers */
+         url('../fonts/zrnic rg.otf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/zrnic rg.otf') format('svg'); /* Legacy iOS */
   }
 
   
