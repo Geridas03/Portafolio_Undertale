@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+    display: grid;
+
+}
+
+.logo{
+    grid-area: logo;
+    width: 100%;
+    height: 40%;
+    justify-content: left;
+    margin-left: 40px;
+}
+
+.head-1{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template: "logo menu" 100px / 
+                        150px 1fr;
+}
+.head-2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template: "logo menu" 100px / 
+                        150px 1fr;
+}
+.style-box{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.style-box-1{
+    color: aliceblue;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Sony';
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.style-box-2{
+    color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: left;
+    margin-top: 6px;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.style-img-article{
+    height: 350px;
+}
+.style-text-article{
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.menu{
+    grid-area: menu;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80%;
+}
+
+.menu-2{
+    grid-area: menu;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40%;
+}
+
+.menu-3{
+    grid-area: menu;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60%;
+}
+
+.img-principal{
+    grid-area: img-principal;
+    width: 100%;
+    height: 600px;
+}
+
+.main-content{
+    column-gap: 80px;
+    row-gap: 40px;
+    height: 600px;                                              
+    width: 100%;
+    display: grid;
+
+    grid-template: "img-principal  img-principal  img-principal  img-principal img-principal"  600px
+                   "empty-left     article-1      article-2      article-3     empty-right"    500px 
+                   "empty-left     article-4      article-5      article-6     empty-right"    500px/
+                   1fr             350px          350px          350px        1fr                ;
+}      
+
+.article{
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+}
+
+.article-1{
+    grid-area: article-1;
+}
+
+.article-2{
+    grid-area: article-2;
+}
+
+.article-3{
+    grid-area: article-3;
+}
+
+.article-4{
+    grid-area: article-4;
+}
+
+.article-5{
+    grid-area: article-5;
+}
+.article-6{
+    grid-area: article-6;
+}
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sony';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/71-font.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/71-font.otf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/71-font.otf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/71-font.otf') format('woff'), /* Modern Browsers */
+         url('../fonts/71-font.otf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/71-font.otf') format('svg'); /* Legacy iOS */
+  }
+
+  
+/*     grid-template: "logo menu" 100px / 
+                        150px 1fr; */

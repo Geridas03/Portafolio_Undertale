@@ -78,7 +78,8 @@ a{
         
     }
 }
-/* amaranth-regular - latin */
+/*     grid-template: "logo menu" 100px / 
+                        150px 1fr; */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Amaranth';
