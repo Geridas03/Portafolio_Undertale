@@ -6,35 +6,39 @@
 
 header{
     background-color: rgb(0, 0, 0);
-    width: 100%;
     height: 40px;
     display: grid;
 
 }
 
 .logo{
-    grid-area: logo;
-    width: 100%;
-    height: 40%;
-    justify-content: left;
     margin-left: 40px;
 }
 
 .head-1{
     background-color: rgb(255, 255, 255);
-    width: 100%;
     height: 50px;
-    display: grid;
     grid-template: "logo menu" 100px / 
-                        150px 1fr;
+                        210px 1fr;
 }
 .head-2{
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 60px;
+    height: 100px;
     display: grid;
     grid-template: "logo menu" 100px / 
-                        150px 1fr;
+                        60px 1fr;
+}
+
+.head-3{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+}
+.head-4{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 20px;
 }
 .style-box{
     color: aliceblue;
@@ -48,37 +52,138 @@ header{
 .style-box-1{
     color: aliceblue;
     display: flex;
-    justify-content: right;
     align-items: center;
     font-family: 'Sony';
     font-size: 1.5em;
     font-weight: 100;
+    margin-left: 1730px;
 }
 
 .style-box-2{
-    color: rgb(36, 36, 36);
     display: flex;
-    justify-content: left;
     margin-top: 6px;
     align-items: center;
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 
 .style-box-3{
-    color: rgb(36, 36, 36);
     display: flex;
-    justify-content: left;
     align-items: center;
-    font-family: sans-serif;
-    font-size: 1.5em;
-    font-weight: 500;
 }
 
-i{
-    font-style: normal;
+.style-box-4{
+    display: flex;
+    margin-top: 250px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.3em;
 }
+.style-box-5{
+    display: flex;
+    align-items: center;
+    font-family: 'Pstore';
+    font-size: 1.3em;
+}
+
+h1{
+    font-style: normal;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: rgb(84, 84, 84);
+}
+
+
+i{
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 8px;
+}
+
+
+h1:hover{
+    color: rgb(0, 99, 229);
+}
+
+h2{
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 80px;
+}
+
+h3{
+    font-family: 'PlayStation' ;
+    margin-left: 35px;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 15px;
+
+}
+h4{
+    font-family: 'Pstore' ;
+    margin-top: 30px;
+    font-size: 0.5em; 
+}
+
+h5{
+    font-family: 'Pstore' ;
+    margin-top: 18px;
+    font-size: 1.7em;
+    margin-right: 300px;
+    font-weight: 900;
+}
+
+h6{
+    font-family: 'Pstore' ;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 1.5em;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+
+h6:hover{
+    background-color: rgb(230, 241, 255);
+}
+
+h7{
+    font-family: 'Pstore' ;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: -75px;
+    margin-left: 90px;
+}
+
+.lupa{
+    margin-left: 15px;
+}
+
+.navegacion{
+    background-color: rgb(0, 99, 229);
+    margin-left: 500px;
+    font-size: 1em;
+    color: white;
+    border-radius: 15px;
+    font-weight: 1;
+}
+
+.disponible{
+    background-color: rgb(0, 99, 229);
+    margin-left: 1300px;
+    margin-top: -75px;
+    font-size: 1em;
+    color: white;
+    border-radius: 20px;
+    font-weight: 1;
+    padding: 5px 15px 5px 15px;
+}
+
+.texto{
+    color: black;
+}
+
 .style-img-article{
     height: 350px;
 }
@@ -90,7 +195,6 @@ i{
 .menu{
     grid-area: menu;
     background-color: rgb(0, 0, 0);
-    width: 100%;
     height: 80%;
 }
 
@@ -105,18 +209,19 @@ i{
     grid-area: menu;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 60%;
+    height: 100%;
 }
 
 .img-principal{
     grid-area: img-principal;
     width: 100%;
     height: 600px;
+    margin-top: 100px;
 }
 
 .main-content{
     column-gap: 80px;
-    row-gap: 40px;
+    row-gap: 250px;
     height: 600px;                                              
     width: 100%;
     display: grid;
@@ -182,6 +287,18 @@ i{
          url('../fonts/zrnic rg.otf') format('svg'); /* Legacy iOS */
   }
 
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Pstore';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/CriqueGrotesk-Thin.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/CriqueGrotesk-Thin.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/CriqueGrotesk-Thin.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/CriqueGrotesk-Thin.ttf') format('woff'), /* Modern Browsers */
+         url('../fonts/CriqueGrotesk-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/CriqueGrotesk-Thin.ttf') format('svg'); /* Legacy iOS */
+  }
   
 /*     grid-template: "logo menu" 100px / 
                         150px 1fr; */
