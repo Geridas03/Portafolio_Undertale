@@ -11,7 +11,8 @@ header{
 
 }
 
-.logo{
+.banner-2{
+    margin-top: 700px;
 }
 
 .head-1{
@@ -20,6 +21,7 @@ header{
     grid-template: "logo menu" 100px / 
                         90px 1750px;
 }
+
 .head-2{
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -34,11 +36,13 @@ header{
     width: 100%;
     height: 40px;
 }
+
 .head-4{
     background-color: rgb(255, 255, 255);
     width: 90%;
     margin-left: 85px;
 }
+
 .style-box{
     color: aliceblue;
     display: flex;
@@ -79,6 +83,7 @@ header{
     font-family: sans-serif;
     font-size: 1.3em;
 }
+
 .style-box-5{
     display: flex;
     align-items: center;
@@ -97,7 +102,7 @@ h1{
 i{
     margin-top: 5px;
     margin-right: 25px;
-
+    position: relative;
 }
 
 
@@ -119,6 +124,7 @@ h3{
     margin-top: 9px;
 
 }
+
 h4{
     font-family: 'Pstore' ;
     margin-top: 22px;
@@ -145,6 +151,18 @@ h6{
 h6:hover{
     background-color: rgb(230, 241, 255);
 }
+
+.more{
+    font-family: 'Pstore' ;
+    width: 7%;
+    margin-left: 900px;
+    margin-top: 345px;
+    font-weight: 800;
+    padding: 5px 6px 5px 15px;
+    color: rgb(0, 99, 229);
+}
+
+.more
 
 h7{
     font-family: 'Pstore' ;
@@ -208,7 +226,7 @@ h7{
     grid-area: menu;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 100%;
+    height: 70%;
 }
 
 .img-principal{
@@ -225,15 +243,44 @@ h7{
     width: 100%;
     display: grid;
 
-    grid-template: "img-principal  img-principal  img-principal  img-principal img-principal"  100px
-                   "empty-left     article-1      article-2      article-3     empty-right"    470px 
-                   "empty-left     article-4      article-5      article-6     empty-right"    500px/
-                   110px             490px          490px          350px        100px               ;
+    grid-template: "img-principal  img-principal  img-principal  img-principal   img-principal      img-principal"  20px
+                   "empty-left     article-1      article-2      article-3       article-4          empty-right"    320px 
+                   "empty-left     article-5      article-6      article-7       article-8          empty-right"    500px/
+                50px             340px          340px          340px         350px              30px               ;
+}      
+
+.card-content{
+    column-gap: 80px;
+    row-gap: 100px;
+    height: 600px;                                              
+    width: 100%;
+    display: grid;
+
+    grid-template: "img-principal  img-principal  img-principal  img-principal   img-principal      img-principal"  100px
+                   "empty-left     article-1      article-2      article-3       article-4          empty-right"    320px 
+                   "empty-left     article-5      article-6      article-7       article-8          empty-right"    500px/
+                50px             340px          340px          340px         350px              30px               ;
 }      
 
 .article{
     width: 350px;
     height: 350px;
+}
+
+.hov{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0);
+    position: absolute;
+}
+
+.hov:hover{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.195);
+    position: absolute;
 }
 
 img{
@@ -262,6 +309,68 @@ img{
 .article-6{
     grid-area: article-6;
 }
+.article-7{
+    grid-area: article-7;
+}
+.article-8{
+    grid-area: article-8;
+    position: relative;
+}
+
+.box-carousel {
+    margin-top: -500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s;
+}
+.box-carousel-1 {
+    left: 0;
+}
+.box-carousel-2 {
+    left: -100%;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc(100vh - 95px);
+}
+.box-img-carousel {
+    height: calc(100vh - 95px);
+    width: 25%;
+}
+.img-carousel {
+    object-fit: cover;
+    width: 100%;
+    height: 50%; 
+}
+.icon-chevron-left, .icon-chevron-right {
+    font-size: 3em;
+    color: rgb(255, 0, 0);
+    position: fixed;
+    top: 190px;
+}
+.icon-chevron-left {
+    left: 20px;
+}
+.icon-chevron-right {
+    right: 20px;
+}
+.box-card-1 {
+    height: 500px;
+    /* background-color: rgb(64,64,64,.9); */
+}
+
+.box-carousel{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s;
+}
+
+
 
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
