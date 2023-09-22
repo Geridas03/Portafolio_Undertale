@@ -326,6 +326,23 @@ img{
     width: 100%;
     align-items: center;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(226,226,226,1) 110%);
+    height: 50%; 
+}
+.icon-chevron-left, .icon-chevron-right {
+    font-size: 3em;
+    color: rgb(38, 255, 0);
+    position: fixed;
+    top: 190px;
+}
+.icon-chevron-left {
+    left: 20px;
+}
+.icon-chevron-right {
+    right: 20px;
+}
+.box-card-1 {
+    height: 500px;
+    /* background-color: rgb(64,64,64,.9); */
 }
 
 
