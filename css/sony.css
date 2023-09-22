@@ -348,7 +348,7 @@ img{
 }
 .icon-chevron-left, .icon-chevron-right {
     font-size: 3em;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 255, 13);
     position: fixed;
     top: 190px;
 }
