@@ -7,22 +7,32 @@
     <link rel="stylesheet" href="css/sneakers1.css">
     <link rel="stylesheet" href="icons/all.css">
 </head>
+
 <body>
     <header></header>
-    <div class="box-img-fixed">
-        <div class="box-img-selected">
+    
+    <div id="boxImgFixed" class="box-img-fixed-hidden">
+        <div id="boxImgSelected" class="box-img-selected">
+            <div id="xmarkButton" class="xmark">
+                <i class="fa-regular fa-x"></i>
+            </div>
             <img id="mainImgFixed1" class="main-img-fixed " src="img/image-product-1.jpeg" alt="">
             <img id="mainImgFixed2" class="main-img-fixed img-hidden" src="img/image-product-2.jpeg" alt="">
             <img id="mainImgFixed3" class="main-img-fixed img-hidden" src="img/image-product-3.jpeg" alt="">
             <img id="mainImgFixed4" class="main-img-fixed img-hidden" src="img/image-product-4.jpeg" alt="">
 
+            <div>
+                <p><span id="numero">1/4</span></p>
+            </div>
 
+        
             <div id="iconLeft" class="box-icons box-icons-left">
                 <i class="icon-style fa-solid fa-chevron-left"></i>
             </div>
             <div id="iconRight" class="box-icons box-icons-right">
                 <i class="icon-style fa-solid fa-chevron-right"></i>
             </div>
+           
         </div>
     </div>
 
@@ -33,10 +43,19 @@
                 <img id="mainImg" class="main-img" src="img/image-product-1.jpeg" alt="">
             </div>
             <div class="box-thumbnail">
-                <img class="thumb thumb-1" src="img/image-product-1.jpeg" alt="">
-                <img class="thumb thumb-2" src="img/image-product-2.jpeg" alt="">
-                <img class="thumb thumb-3" src="img/image-product-3.jpeg" alt="">
-                <img class="thumb thumb-4" src="img/image-product-4.jpeg" alt="">
+                <div class="box-thumb">
+                    <img id="thumb1" class="thumb thumb-1" src="img/image-product-1.jpeg" alt="">
+                </div>
+                <div class="box-thumb">
+                    <img id="thumb2" class="thumb thumb-2" src="img/image-product-2.jpeg" alt="">
+                </div>
+                <div class="box-thumb">
+                    <img id="thumb3" class="thumb thumb-3" src="img/image-product-3.jpeg" alt="">
+                </div>
+                <div class="box-thumb">
+                    <img id="thumb4" class="thumb thumb-4" src="img/image-product-4.jpeg" alt="">
+                </div>
+                
             </div>
         </div>
         
@@ -45,3 +64,9 @@
 </body>
 <script src="js/sneakers.js"></script>
 </html>
+
+
+
+    
+
+
