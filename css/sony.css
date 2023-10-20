@@ -29,7 +29,7 @@ header{
     display: grid;
     grid-template: "logo menu" 100px / 
                         25px 1fr;
-}
+                        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;}
 
 .head-3{
     background-color: rgb(255, 255, 255);
@@ -39,9 +39,8 @@ header{
 
 .head-4{
     background-color: rgb(255, 255, 255);
-    width: 90%;
-    margin-left: 85px;
-}
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;}
 
 .style-box{
     color: aliceblue;
@@ -89,6 +88,14 @@ header{
     align-items: center;
     font-family: 'Pstore';
     font-size: 1.3em;
+    height: 100px;
+}
+.style-box-6{
+    display: flex;
+    align-items: center;
+    font-family: 'Pstore';
+    font-size: 1.3em;
+    height: 100px;
 }
 
 h1{
@@ -204,7 +211,7 @@ h7{
 
 .texto-1{
     color: black;
-    margin: 100px 0px 0px 20px;
+    margin: 10px 0px 0px 20px;
     font-size: 1.3em;
 }
 
