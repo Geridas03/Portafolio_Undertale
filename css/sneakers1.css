@@ -217,7 +217,7 @@ header {
     line-height: 1.6em;
     font-weight: 500;
 }
-/* p{
+h1{
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
@@ -228,7 +228,7 @@ header {
     width: 10%;
     border-radius: 15px;
     margin-left: 225px;
-} */
+}
 
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
