@@ -257,6 +257,8 @@ header {
     width: 150px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 15px;
     background-color: rgb(247, 248, 253);
     border-radius: 10px;
@@ -281,6 +283,37 @@ header {
 .box-minus:hover, .box-plus:hover{
     cursor: pointer;
     background-color: rgb(224, 224, 224);
+}
+.sold{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.valor-total{
+    margin-top: 15px;
+    width: 90px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgb(247, 248, 253)    ;
+}
+.add-cart{
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color:orange;
 }
 
 h1{
