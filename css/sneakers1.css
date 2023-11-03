@@ -67,15 +67,24 @@ header {
     font-size: 1.6em;
     padding-right: 20px;
 }
+
 .box-foto:hover{
     cursor: pointer;
-    color: orange;
+    border-radius: 15px;
+    
+    
 }
 .foto{
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    box-shadow: 0 -2px 5px rgb(96,96,96);
+    box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+}
+.foto:hover{
+    width: 28px;
+    height: 28px;
+    box-shadow: 0px 0px 0px 3px rgb(255, 128, 0);
+   
 }
 .box-left {
     grid-area: box-left;
@@ -294,7 +303,7 @@ header {
 .valor-total{
     margin-top: 15px;
     width: 150px;
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

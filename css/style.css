@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 span{
   color: #268069;
 }
@@ -127,8 +126,10 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
+  text-decoration: none;
 }
+
 
 .info-content span {
   color: #268069;
@@ -180,9 +181,12 @@ h1 {
 .about p {
   margin-bottom: 1em;
 }
-
+a{
+  text-decoration: none;
+}
 h2{
   color: white;
+  text-decoration: line-through;
 }
 .trabajos{
   background:linear-gradient(to right, #444444, #0e0e0e);
