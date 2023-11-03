@@ -234,6 +234,7 @@ header {
     display: flex;
     align-items: flex-end;
     font-weight: 600;
+    
 }
 
 .lbl-descuento{
@@ -292,7 +293,7 @@ header {
 
 .valor-total{
     margin-top: 15px;
-    width: 90px;
+    width: 150px;
     height: 70px;
     display: flex;
     justify-content: center;
